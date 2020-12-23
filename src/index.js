@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './main.css'
 import Portfolio from './components/portfolio.component';
 import reportWebVitals from './reportWebVitals';
 
