@@ -10801,4 +10801,18 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+
+body {
+  background: #cac8b8;
+}
+
+.vertColumn {
+  background-color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 15px;
+          box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 15px;
+}
+
+.roundImg {
+  border-radius: 5%;
+}
 /*# sourceMappingURL=main.css.map */

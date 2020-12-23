@@ -5,9 +5,9 @@ import profilePicture from '../img/profilePicture.jpg'
 export default function NameCard() {
     return (
         <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-            <div className="vertColumn">
-                <div>
-                    <img src={profilePicture} alt="" width="150px"/>
+            <div className="vertColumn container mb-3">
+                <div className="pt-3 pb-3">
+                    <img src={profilePicture} alt="" width="150px" className="roundImg"/>
                 </div>
 
                 <div>
@@ -15,13 +15,13 @@ export default function NameCard() {
                     <small>Full-stack developer</small>
                 </div>
 
-                <div>
+                <div className="pb-2">
                     <p>Self-motivated developer, who is willing to learn and create outstanding web applications.</p>
                 </div>
             </div>
 
-            <div className="vertColumn">
-                <div>
+            <div className="vertColumn container mb-3 pb-2">
+                <div className="pt-3">
                     <h5>Experience</h5>
                 </div>
 

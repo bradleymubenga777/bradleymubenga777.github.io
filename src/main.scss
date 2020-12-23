@@ -1,2 +1,15 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+body{
+    background: rgb(202, 200, 184);
+}
+
+
+.vertColumn{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 15px;
+}
+
+.roundImg{
+    border-radius: 5%;
+}
