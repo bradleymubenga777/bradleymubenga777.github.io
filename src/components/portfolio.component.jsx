@@ -12,7 +12,6 @@ export default class Portfolio extends Component {
                         <NameCard />
 
                         <TechStack />
-                        
                     </div>
                 </section>
             </div>

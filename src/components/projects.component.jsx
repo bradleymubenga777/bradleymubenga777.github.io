@@ -1,42 +1,54 @@
 import React from 'react'
 import '../main.css'
-import profilePicture from '../img/profilePicture.jpg'
-import portfolioPicture from '../img/portfolioPicture.jpeg'
+import Blog from './blog.component'
+import port1 from '../img/port1.jpeg'
+import port2 from '../img/port2.jpeg'
 
 export default function Projectst() {
     return (
         <div className="row">
             <div className="col-md-12 col-lg-12">
-                <div className="vertColumn container mb-3 pt-3 pb-4">
+                <div className="vertColumn container mb-3 pt-3 pb-5">
                     <h4 className="border-bottom pb-3">Projects</h4>
 
                     <div className="row">
                         <div className="col-md-12 col-xl-6">
-                            <div class="card mb-3">
-                                <img src={portfolioPicture} class="card-img-top img-fluid" alt="..." />
+                            <div className="card mb-3">
+                                <img src={port1} class="card-img-top img-fluid" alt="..." />
 
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <div className="card-body">
+                                    <h5 className="card-title">www.indlelamedia.com</h5>
+                                    
+                                    <div className="d-flex flex-row flex-wrap pb-2">
+                                        <button className="btn btn-primary mr-2">Demo</button>
+                                        <button className="btn btn-outline-primary">Code</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-md-12 col-xl-6">
                             <div class="card mb-3">
-                                <img src={portfolioPicture} class="card-img-top img-fluid" alt="..." />
+                                <img src={port2} class="card-img-top img-fluid" alt="..." />
 
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <div class="card-body pb-4">
+                                    <h5 class="card-title">www.muaceleste.co.za</h5>
+                                    
+                                    <div className="d-flex flex-row flex-wrap">
+                                        <button className="btn btn-primary mr-2">Demo</button>
+                                        <button className="btn btn-outline-primary">Code</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
+                        <div className="col-md-12 col-xl-12 text-center">
+                            <button className="btn btn-outline-primary">Show more</button>
+                        </div>
                     </div>
-                    
                 </div>
+
+                <Blog />
             </div>
 
     </div>

@@ -10803,16 +10803,40 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 body {
-  background: #cac8b8;
+  background-color: #673b6d;
+  background-image: url(./img/waterMark.png);
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  color: #220d33;
 }
 
 .vertColumn {
-  background-color: white;
+  background-color: #fef9ff;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 15px;
           box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 15px;
+  border-radius: 0.5%;
 }
 
 .roundImg {
   border-radius: 5%;
+}
+
+.picLinks {
+  font-size: 2.5rem;
+  color: #673b6d;
+}
+
+a:hover {
+  color: #956a9b;
+}
+
+.jobTitle {
+  color: #673b6d;
+  font-weight: 500;
+}
+
+.companyName {
+  font-size: larger;
+  font-weight: 600;
 }
 /*# sourceMappingURL=main.css.map */
