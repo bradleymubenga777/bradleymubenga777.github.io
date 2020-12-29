@@ -17,9 +17,11 @@ export default function Projectst() {
                                 <img src={port1} class="card-img-top img-fluid" alt="..." />
 
                                 <div className="card-body">
-                                    <h5 className="card-title">www.indlelamedia.com</h5>
+                                    <a href="https://bradleymubenga777.github.io/indlela-media/">
+                                        <h5 className="card-title">Indlela Media Web App</h5>
+                                    </a>
                                     
-                                    <div className="d-flex flex-row flex-wrap pb-2">
+                                    <div className="d-flex flex-row flex-wrap">
                                         <button className="btn btn-primary mr-2">Demo</button>
                                         <button className="btn btn-outline-primary">Code</button>
                                     </div>
@@ -31,8 +33,10 @@ export default function Projectst() {
                             <div class="card mb-3">
                                 <img src={port2} class="card-img-top img-fluid" alt="..." />
 
-                                <div class="card-body pb-4">
-                                    <h5 class="card-title">www.muaceleste.co.za</h5>
+                                <div class="card-body">
+                                    <a href="https://muaceleste.netlify.app">
+                                        <h5 class="card-title">MUA Celeste Portfolio</h5>
+                                    </a>
                                     
                                     <div className="d-flex flex-row flex-wrap">
                                         <button className="btn btn-primary mr-2">Demo</button>
@@ -43,7 +47,7 @@ export default function Projectst() {
                         </div>
 
                         <div className="col-md-12 col-xl-12 text-center">
-                            <button className="btn btn-outline-primary">Show more</button>
+                            
                         </div>
                     </div>
                 </div>

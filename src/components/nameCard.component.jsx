@@ -22,7 +22,7 @@ export default function NameCard() {
                     <p>Self-motivated developer, who is willing to learn and create outstanding web applications.</p>
                 </div>
 
-                <div className="d-flex flex-row flex-wrap pb-3 theLinks">
+                <div className="d-flex flex-row flex-wrap align-items-center pb-3 theLinks">
 
                     <a href="/" className="mr-2">
                         <i className="picLinks fa fa-linkedin-square"></i>
@@ -36,7 +36,11 @@ export default function NameCard() {
                         <i className="picLinks fa fa-envelope-square"></i>
                     </a>
 
+                    <div href="/" className="ml-4">
+                        <button className="btn btn-outline-primary">Download CV</button>
+                    </div>
                 </div>
+
             </div>
 
             <div className="vertColumn container mb-3 pb-2">
