@@ -10839,4 +10839,65 @@ a:hover {
   font-size: larger;
   font-weight: 600;
 }
+
+.btn-outline-primary {
+  border-color: #673b6d;
+  color: #673b6d;
+}
+
+.btn-outline-primary:hover {
+  background-color: #220d33;
+  color: white;
+  border-color: #673b6d;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-primary.dropdown-toggle {
+  background-color: #220d33;
+}
+
+.btn-outline-primary:focus, .btn-outline-primary.focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(183, 0, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(119, 0, 255, 0.5);
+}
+
+.btn-primary {
+  background-color: #220d33;
+  border-color: #3b1957;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #3b1957;
+  border-color: #220d33;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  color: #fff;
+  background-color: #220d33;
+  border-color: #220d33;
+  -webkit-box-shadow: 0 0 0 0.2rem #220d33;
+  box-shadow: 0 0 0 0.2rem #220d33;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #220d33;
+  border-color: #220d33;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #220d33;
+  border-color: #220d33;
+}
+
+.card {
+  border: 1px solid #220d338e;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #220d334f !important;
+}
 /*# sourceMappingURL=main.css.map */
