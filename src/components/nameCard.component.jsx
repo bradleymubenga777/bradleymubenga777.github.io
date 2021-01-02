@@ -19,24 +19,24 @@ export default function NameCard() {
                 </div>
 
                 <div className="">
-                    <p>Self-motivated developer, who is willing to learn and create outstanding web applications.</p>
+                    <p>Self-motivated developer, who is willing to learn and create outstanding web applications to solve problems.</p>
                 </div>
 
                 <div className="d-flex flex-row flex-wrap align-items-center pb-3 theLinks">
 
-                    <a href="/" className="mr-2">
+                    <a href="https://www.linkedin.com/in/bradley-mubenga/" rel="noreferrer" target="_blank" className="mr-2">
                         <i className="picLinks fa fa-linkedin-square"></i>
                     </a>
 
-                    <a href="/" className="mr-2">
+                    <a href="https://bradleymubenga777.github.io/" rel="noreferrer" target="_blank" className="mr-2">
                         <i className="picLinks fa fa-github"></i>
                     </a>
 
-                    <a href="/" className="mr-2">
+                    <a href="mailto:bradleymubenga77@gmail.com" rel="noreferrer" target="_blank" className="mr-2">
                         <i className="picLinks fa fa-envelope-square"></i>
                     </a>
 
-                    <div href="/" className="ml-4">
+                    <div href="" className="ml-4">
                         <button className="btn btn-outline-primary">Download CV</button>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ export default function NameCard() {
                         <small className="companyName">Indlela Media</small> <br></br>
                         <small>Feb 2020 - Current</small>
                         <h6 className="jobTitle">Front-end developer</h6>
-                        <p>Responsible for the front-end development of the Indlela Media’s Web App, primarily using React and Bootstrap in a startup enviroment. </p>
+                        <p>Responsible for the front-end development of the Indlela Media’s Web App, implementing front-end frameworks to create a userfriendly and easy to use dasboard UI.</p>
                     </div>
                 </div>
 
