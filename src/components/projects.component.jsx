@@ -17,13 +17,14 @@ export default function Projectst() {
                                 <img src={port1} class="card-img-top img-fluid" alt="..." />
 
                                 <div className="card-body">
-                                    <a href="https://bradleymubenga777.github.io/indlela-media/">
-                                        <h5 className="card-title">Indlela Media Web App</h5>
-                                    </a>
+                                    <h5 className="card-title">Indlela Media Web App</h5>
                                     
                                     <div className="d-flex flex-row flex-wrap">
                                         <button className="btn btn-primary mr-2">Demo</button>
-                                        <button className="btn btn-outline-primary">Code</button>
+                                        
+                                        <a href="https://github.com/bradleymubenga777/indlela-media">
+                                            <button className="btn btn-outline-primary">Code</button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -34,13 +35,16 @@ export default function Projectst() {
                                 <img src={port2} class="card-img-top img-fluid" alt="..." />
 
                                 <div class="card-body">
-                                    <a href="https://muaceleste.netlify.app">
-                                        <h5 class="card-title">MUA Celeste Portfolio</h5>
-                                    </a>
+                                    <h5 class="card-title">MUA Celeste Portfolio</h5>
                                     
                                     <div className="d-flex flex-row flex-wrap">
-                                        <button className="btn btn-primary mr-2">Demo</button>
-                                        <button className="btn btn-outline-primary">Code</button>
+                                        <a href="http://muaceleste.netlify.app/" rel="noreferrer" target="_blank" >
+                                            <button className="btn btn-primary mr-2">Demo</button>
+                                        </a>
+
+                                        <a href="https://github.com/bradleymubenga777/muaceleste" rel="noreferrer" target="_blank" >
+                                            <button className="btn btn-outline-primary">Code</button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

@@ -10814,7 +10814,6 @@ body {
   background-color: #fef9ff;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 15px;
           box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 15px;
-  border-radius: 0.5%;
 }
 
 .roundImg {
@@ -10899,5 +10898,17 @@ a:hover {
 
 .border-bottom {
   border-bottom: 1px solid #220d334f !important;
+}
+
+.theLinks a i:hover {
+  color: #391953;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
 }
 /*# sourceMappingURL=main.css.map */
