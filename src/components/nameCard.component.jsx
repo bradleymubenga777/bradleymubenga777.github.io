@@ -28,7 +28,7 @@ export default function NameCard() {
                         <i className="picLinks fa fa-linkedin-square"></i>
                     </a>
 
-                    <a href="https://bradleymubenga777.github.io/" rel="noreferrer" target="_blank" className="mr-2">
+                    <a href="https://github.com/bradleymubenga777" rel="noreferrer" target="_blank" className="mr-2">
                         <i className="picLinks fa fa-github"></i>
                     </a>
 
