@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import profilePicture from '../img/profilePicture.jpg'
+import { NavLink } from 'react-router-dom'
 
 export default class welcomePage extends Component {
     
@@ -44,15 +45,15 @@ export default class welcomePage extends Component {
                                 
                                 <div className="d-flex flex-row flex-wrap justify-content-center  align-items-center pb-3 theLinks">
                                     <div href="" className="mr-1">
-                                        <a href="/portfolio">
+                                        <NavLink to="/portfolio">
                                             <button className="btn btn-outline-primary">Portfolio</button>
-                                        </a>
+                                        </NavLink>
                                     </div>
         
                                     <div href="" className="ml-1">
-                                        <a href="/portfolio">
-                                            <button  className="btn btn-outline-primary">Blog</button>
-                                        </a>
+                                        <NavLink to="/blog">
+                                            <button className="btn btn-outline-primary">Blog</button>
+                                        </NavLink>
                                     </div>
                                 </div>
                             </div>
@@ -64,5 +65,4 @@ export default class welcomePage extends Component {
             </div>
         )
     }
-
 }
