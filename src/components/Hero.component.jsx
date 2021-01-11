@@ -15,8 +15,8 @@ export default function Hero() {
 
                             
                             <div className="">
-                                <button className="btn btn-primary mr-2">Contact Me</button>
-                                <button className="btn btn-outline-primary ml-2">Learn More</button>
+                                <button className="btn btn-primary mr-2">Hire Me</button>
+                                <button className="btn btn-outline-primary ml-2">Portfolio</button>
                             </div>
                         </div>
                     </div>

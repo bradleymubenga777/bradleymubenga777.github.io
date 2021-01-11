@@ -4,7 +4,7 @@ import logoImg from '../img/logoImg.png'
 
 export default function Navbar() {
     return (
-<nav class="navbar navbar-expand-lg navbar-fixed navbar-dark purpleBg">
+<nav class="navbar navbar-expand-lg fixed-navbar navbar-dark purpleBg">
   <div class="container">
     <a class="navbar-brand" href="/">
         <img alt="" src={logoImg} width="45rem" />
