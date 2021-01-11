@@ -10803,11 +10803,18 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 body {
-  background-color: #673b6d;
-  background-image: url(./img/waterMark.png);
   background-repeat: repeat-y;
   background-attachment: fixed;
   color: #220d33;
+  overflow-x: hidden;
+}
+
+.whiteBg {
+  background-color: white;
+}
+
+.purpleBg {
+  background-color: #673b6d;
 }
 
 .vertColumn {
@@ -10825,8 +10832,18 @@ body {
   color: #673b6d;
 }
 
+a {
+  color: #ca0087;
+  text-shadow: #220d33 1px 1px 3.5px;
+}
+
 a:hover {
   color: #956a9b;
+}
+
+.whiteBox {
+  background-color: #956a9b;
+  border: 2px solid #200020;
 }
 
 .jobTitle {
@@ -10840,14 +10857,15 @@ a:hover {
 }
 
 .btn-outline-primary {
-  border-color: #673b6d;
-  color: #673b6d;
+  border-color: #ffffff;
+  color: #ffffff;
+  border-radius: 0%;
 }
 
 .btn-outline-primary:hover {
-  background-color: #220d33;
-  color: white;
-  border-color: #673b6d;
+  background-color: #d7bdec;
+  color: #200020;
+  border-color: #ffffff;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
@@ -10860,9 +10878,14 @@ a:hover {
   box-shadow: 0 0 0 0.2rem rgba(119, 0, 255, 0.5);
 }
 
+.whiteText {
+  color: white;
+}
+
 .btn-primary {
   background-color: #220d33;
   border-color: #3b1957;
+  border-radius: 0%;
 }
 
 .btn-primary:hover {

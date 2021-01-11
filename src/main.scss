@@ -5,11 +5,18 @@ $lightPurple: #673b6d;
 $darkPurple: #220d33;
 
 body{
-    background-color: #673b6d;
-    background-image: url(./img/waterMark.png);
     background-repeat: repeat-y;
     background-attachment: fixed;
     color: $darkPurple;
+    overflow-x: hidden;
+}
+
+.whiteBg{
+    background-color: white;
+}
+
+.purpleBg{
+    background-color: #673b6d;
 }
 
 
@@ -27,8 +34,18 @@ body{
     color: #673b6d;
 }
 
+a{
+    color: rgb(202, 0, 135);
+    text-shadow: $darkPurple 1px 1px 3.5px;
+}
+
 a:hover{
     color: #956a9b;
+}
+
+.whiteBox{
+    background-color: #956a9b;
+    border: 2px solid rgb(32, 0, 32);
 }
 
 .jobTitle{
@@ -42,15 +59,16 @@ a:hover{
 }
 
 .btn-outline-primary{
-    border-color: #673b6d;
-    color: #673b6d;
+    border-color: #ffffff;
+    color: #ffffff;
+    border-radius: 0%;
 
 }
 
 .btn-outline-primary:hover{
-    background-color: #220d33;
-    color: white;
-    border-color: #673b6d;
+    background-color: #d7bdec;
+    color: rgb(32, 0, 32);
+    border-color: #ffffff;
 
 }
 
@@ -65,10 +83,16 @@ a:hover{
             box-shadow: 0 0 0 0.2rem rgba(119, 0, 255, 0.5);
 }
 
+.whiteText{
+    color: white;
+}
+
+
 //===============
 .btn-primary{
     background-color: $darkPurple;
     border-color: #3b1957;
+    border-radius: 0%;
 }
 
 .btn-primary:hover {

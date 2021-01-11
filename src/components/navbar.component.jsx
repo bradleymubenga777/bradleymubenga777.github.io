@@ -4,7 +4,7 @@ import logoImg from '../img/logoImg.png'
 
 export default function Navbar() {
     return (
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-fixed navbar-dark purpleBg">
   <div class="container">
     <a class="navbar-brand" href="/">
         <img alt="" src={logoImg} width="45rem" />
@@ -15,31 +15,32 @@ export default function Navbar() {
 
     <div class="collapse navbar-collapse" id="navbarsExample07">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
+
+        <li class="nav-item active mr-5">
           <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
         </li>
 
-        <li class="nav-item active">
+        <li class="nav-item active mr-5">
             <a href="/" className="nav-link">Portfolio</a>
         </li>
 
-        <li class="nav-item active">
+        <li class="nav-item active mr-5">
             <a href="/" className="nav-link">Blog</a>
         </li>
 
-        <li class="nav-item active">
+        <li class="nav-item active mr-5">
             <a href="/" className="nav-link">Contact</a>
         </li>
         
-        <div className="borderRight ml-3"></div>
+        <div className="borderRight ml-3 "></div>
 
-        <div className="ml-3 d-flex align-items-center justify-content-center">
-            <a href="/" className="mr-3">
-                <i className="fa fa-facebook"></i>
+        <div className="ml-5 d-flex align-items-center justify-content-center">
+            <a href="/" className="mr-4">
+                <i className="fa fa-phone"></i>
             </a>
 
-            <a href="/" className="mr-3">
-                <i className="fa fa-facebook"></i>
+            <a href="/" className="mr-4">
+                <i className="fa fa-linkedin"></i>
             </a>
 
             <a href="/" className="">
