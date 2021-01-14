@@ -23,7 +23,7 @@ export default function Hero() {
                     
                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
                         <div className="d-flex justify-content-center align-content-center">
-                            <img src={meAndLogo} alt="" width="500rem" className="img-fluid"/>
+                            <img src={meAndLogo} alt="" width="777rem" className="img-fluid"/>
                         </div>
                     </div>
                 </div>
