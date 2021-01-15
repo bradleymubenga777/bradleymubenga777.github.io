@@ -9,7 +9,7 @@ export default function Services() {
                 <small class="lead">This is what I'm great at!</small>
             </div>
 
-            <div className="row mt-3 d-flex justify-content-center">
+            <div className="row mt-3 d-flex justify-content-center ">
                 <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 m-2">
                     <div className="whiteBox text-center pt-3 pb-2 m-2">
                         <img alt="" width="50rem" src={webDevPic} className="img-fluid"/>
