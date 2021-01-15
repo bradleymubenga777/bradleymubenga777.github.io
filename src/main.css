@@ -10817,6 +10817,30 @@ body {
   background-color: #673b6d;
 }
 
+.expBox{
+  background-color: #956a9b;
+  border: 2px solid #200020;
+}
+
+.devType{
+  color: #561570;
+  font-size: small;
+}
+
+.boldF{
+  font-weight: bold;
+}
+
+.refA a{
+  color: #000;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.refA a:hover{
+  color: #c510f2;
+}
+
 .vertColumn {
   background-color: #fef9ff;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 15px;
@@ -10937,5 +10961,13 @@ a:hover {
 
 .borderRight {
   border-right: 1px solid grey;
+}
+
+.devName{
+  color: rgb(207, 203, 203);
+}
+
+.iconSize{
+  font-size: 1.5rem;
 }
 /*# sourceMappingURL=main.css.map */

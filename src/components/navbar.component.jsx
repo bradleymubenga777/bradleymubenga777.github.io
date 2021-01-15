@@ -4,7 +4,7 @@ import { NavLink, Link } from 'react-router-dom'
 
 export default function Navbar() {
     return (
-<nav class="navbar navbar-expand-lg fixed-navbar navbar-dark purpleBg">
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark purpleBg">
   <div class="container">
     <Link class="navbar-brand" to="/">
         <img alt="" src={logoImg} width="50rem" />
@@ -17,35 +17,31 @@ export default function Navbar() {
       <ul class="navbar-nav ml-auto">
 
         <li class="nav-item mr-5">
-            <NavLink to="/ss" className="nav-link">Home</NavLink>
+            <NavLink exact to="/"  className="nav-link">Portfolio</NavLink>
         </li>
 
         <li class="nav-item mr-5">
-            <NavLink to="/sss" className="nav-link">Portfolio</NavLink>
+            <NavLink to="/blog" className="nav-link">Blog</NavLink>
         </li>
 
         <li class="nav-item mr-5">
-            <NavLink to="/ssss" className="nav-link">Blog</NavLink>
-        </li>
-
-        <li class="nav-item mr-5">
-            <NavLink to="/ssssss" className="nav-link">Contact</NavLink>
+            <NavLink to="/contact" className="nav-link">Contact</NavLink>
         </li>
         
         <div className="borderRight ml-3 "></div>
 
         <div className="ml-5 d-flex align-items-center justify-content-center">
-            <Link to="/" className="mr-4">
-                <i className="fa fa-phone"></i>
-            </Link>
+            <a href="https://www.github.com/bradleymubenga777/" target="blank" className="mr-4 iconSize">
+                <i className="fa fa-github"></i>
+            </a>
 
-            <Link to="/" className="mr-4">
-                <i className="fa fa-linkedin"></i>
-            </Link>
+            <a href="https://www.linkedin.com/in/bradley-mubenga/" target="blank" className="mr-4 iconSize">
+                <i className="fa fa-linkedin-square"></i>
+            </a>
 
-            <Link to="/" className="">
-                <i className="fa fa-facebook"></i>
-            </Link>
+            <a href="https://www.facebook.com/bradleymubenga1/" target="blank" className="iconSize">
+                <i className="fa fa-facebook-square"></i>
+            </a>
         </div>
       </ul>
     </div>
