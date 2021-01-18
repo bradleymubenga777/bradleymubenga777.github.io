@@ -1,21 +1,20 @@
 import React, { Component } from 'react'
-import Navbar from './navbar.component'
-import WelcomePage from './welcomePage.component'
-import PortfolioComponent from './portfolio.component'
+import Navbar from './Navbar.component'
+import Home from './Home.component';
+import ContactMe from './Contact.component'
 import { BrowserRouter, Route } from 'react-router-dom'
 import '../main.css'
+import '../font-awesome/css/font-awesome.min.css'
 
 export default class App extends Component {
     render() {
         return (
             <BrowserRouter>
-                <section className="container">
-                    <div className="row mt-4">
+                    <div className="">
                         <Navbar />
-                        <Route exact path="/" component={WelcomePage} />
-                        <Route exact path='/portfolio' component={PortfolioComponent} />
+                        <Route exact path="/" component={Home}/>
+                        <Route exact path="/contact" component={ContactMe}/>
                     </div>
-                </section>
             </BrowserRouter>
         )
     }
