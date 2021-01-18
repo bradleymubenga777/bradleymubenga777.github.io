@@ -4,9 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <title>Bradley Mubenga | Web Developer Portfolio</title>
 </head>
 <body>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark purpleBg">
+    <div class="container">
+      <a class="navbar-brand" to="/">
+          <img alt="" src="./img/favicon.png" width="50rem" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarsExample07">
+        <ul class="navbar-nav ml-auto">
+  
+          <li class="nav-item mr-5 ">
+              <a href="#"  className="nav-a active">Portfolio</a>
+          </li>
+  
+          <li class="nav-item mr-5">
+              <a href="#" className="nav-a">Blog</a>
+          </li>
+  
+          <li class="nav-item mr-5">
+              <a href="#" className="nav-a">Contact</a>
+          </li>
+          
+          <div className="borderRight ml-3 "></div>
+  
+          <div className="ml-5 d-flex align-items-center justify-content-center">
+              <a href="https://www.github.com/bradleymubenga777/" target="blank" className="mr-4 iconSize">
+                  <i className="fa fa-github"></i>
+              </a>
+  
+              <a href="https://www.aedin.com/in/bradley-mubenga/" target="blank" className="mr-4 iconSize">
+                  <i className="fa fa-aedin-square"></i>
+              </a>
+  
+              <a href="https://www.facebook.com/bradleymubenga1/" target="blank" className="iconSize">
+                  <i className="fa fa-facebook-square"></i>
+              </a>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--Navbar-->
+
 <!--Jumbotron Section-->
     <div class="purpleBg mb-5 pt-5">
         <div class="container pt-5">
@@ -56,7 +103,7 @@
                     <p class="text-center"> A web application for Corporate Social Investors to manage their projects.</p>
                     
                     <div>
-                        <button class="btn btn-primary mr-2">Demo <i class="fa fa-external-link"></i></button>
+                        <button class="btn btn-primary mr-2">Demo <i class="fa fa-external-a"></i></button>
                         <button class="btn btn-outline-primary ml-2">Code <i class="fa fa-code"></i></button>
                     </div>
                 </div>
@@ -72,7 +119,7 @@
                     <p class="text-center">A website portfolio for a Professional Make-up artist displaying their art.</p>
                     
                     <div>
-                        <button class="btn btn-primary mr-2">Demo <i class="fa fa-external-link"></i></button>
+                        <button class="btn btn-primary mr-2">Demo <i class="fa fa-external-a"></i></button>
                         <button class="btn btn-outline-primary ml-2">Code <i class="fa fa-code"></i></button>
                     </div>
                 </div>
@@ -96,37 +143,6 @@
                     <div class="">
                         <h5 class="mb-0">Tech Stack</h5>
                         <p>I specialize in the <span class="boldF">MERN Stack</span>, in addition I use <span class="boldF">Bootstrap</span> and <span class="boldF">Sass</span> to enchance my designs. I am not limited to these technologies and I am eager and willing to learn more. </p>
-                        
-                        <div class="d-flex justify-content-center">
-                            <div>
-                                <img src={mongoLogo} alt="" class="img-fluid" width="47rem"/>
-                            </div>
-
-                            <div>
-                                <img src={expressLogo} alt="" class="img-fluid ml-2" width="47rem"/>
-                            </div>
-
-                            <div>
-                                <img src={reactLogo} alt="" class="img-fluid ml-2" width="47rem"/>
-                            </div>
-
-                            <div>
-                                <img src={nodejsLogo} alt="" class="img-fluid ml-2" width="47rem"/>
-                            </div>
-
-                            <div>
-                                <img src={bootsrapLogo} alt="" class="img-fluid ml-2" width="47rem"/>
-                            </div>
-
-                            <div>
-                                <img src={sassLogo} alt="" class="img-fluid ml-2" width="47rem"/>
-                            </div>
-
-                            <div>
-                                <img src={jwtLogo} alt="" class="img-fluid ml-2" width="47rem"/>
-                            </div>
-
-                        </div>
                     </div>
                 </div>
             </div>
@@ -203,8 +219,8 @@
                             <i class="fa fa-github"></i>
                         </a>
 
-                        <a href="https://www.linkedin.com/in/bradley-mubenga/" target="blank" class="mr-4 iconSize">
-                            <i class="fa fa-linkedin-square"></i>
+                        <a href="https://www.aedin.com/in/bradley-mubenga/" target="blank" class="mr-4 iconSize">
+                            <i class="fa fa-aedin-square"></i>
                         </a>
 
                         <a href="https://www.facebook.com/bradleymubenga1/" target="blank" class="iconSize">
