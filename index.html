@@ -2,235 +2,434 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
-    <title>Bradley Mubenga | Web Developer Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bradley Mubenga | Web developer, Web designer</title>
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <!-- <link href="assets/main.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="./css/fullpage.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 </head>
 <body>
-<!--Navbar-->
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark purpleBg">
-    <div class="container">
-      <a class="navbar-brand" to="/">
-          <img alt="" src="./img/favicon.png" width="50rem" />
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+
+<!--NAVBAR-->
+<header>
+    <nav class="navbar fixed-top  navbar-expand-lg navbar-light Color1 transparent container">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./img/favicon.png" width="55em">
+        </a>
   
-      <div class="collapse navbar-collapse" id="navbarsExample07">
-        <ul class="navbar-nav ml-auto">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
   
-            <!-- <li class="nav-item mr-5 ">
-                <a href="#"  className="nav-a active">Portfolio</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-    
-            <li class="nav-item mr-5">
-                <a href="#" className="nav-a">Blog</a>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="#">About me</a>
             </li>
-    
-            <li class="nav-item mr-5">
-                <a href="#" className="nav-a">Contact</a>
-            </li> -->
+  
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+          </ul>
           
-          <div className="borderRight ml-3 "></div>
-  
-          <div className="ml-5 d-flex align-items-center justify-content-center">
-              <a href="https://www.github.com/bradleymubenga777/" target="blank" className="mr-4 iconSize">
-                  <i className="fa fa-github"></i>
-              </a>
-  
-              <a href="https://www.aedin.com/in/bradley-mubenga/" target="blank" className="mr-4 iconSize">
-                  <i className="fa fa-aedin-square"></i>
-              </a>
-  
-              <a href="https://www.facebook.com/bradleymubenga1/" target="blank" className="iconSize">
-                  <i className="fa fa-facebook-square"></i>
-              </a>
+          <div class="m-3">
+            <a href="tel:0620253573"><i class="fas fa-phone-alt"></i>  062 025 3573</a>
           </div>
-        </ul>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#contactMeModal" class="btn btn-md btn-outline-primary">Free Consultation</button>
+        </div>
+      </div>
+    </nav>
+</header>
+<!--NAVBAR-->
+
+<!--HERO SECTION-->
+<header class="masthead Color1">
+  <div class="container h-100 pt-5">
+    <div class="row h-100 align-items-center">
+      <div class="col-12 container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex align-items-center">
+            <div>
+              <h1>Do you want to get more clients with your website?</h1>
+              <p class="lead">I help businesses get more customers through Effective Web Design and Digital Marketing.</p>
+
+              <div class="d-flex align-items-center gap-2">
+                <button type="button" data-bs-toggle="modal" data-bs-target="#contactMeModal" class="btn btn-md btn-block btn-primary">Get Started</button>
+                <button class="btn btn-outline-primary">Portfolio</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-2">
+            <img src="./img/meAndLogo.png" class="img-fluid" width="450rem">
+          </div>
+        </div>
       </div>
     </div>
-  </nav>
-<!--Navbar-->
+  </div>
+</header>
+<!--HERO SECTION-->
 
-<!--Jumbotron Section-->
-    <div class="purpleBg mb-5 pt-5">
-        <div class="container pt-5">
-            <div class="row d-flex flex-column justify-content-center align-content-center">
-                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-5 ">
-                    <div class="text-center mt-3">
-                        
-                        <div class="">
-                            <img src="./img/profilePicture.jpg" class="img-fluid roundImg" alt="" width="200rem" />
-                        </div>
-
-                        <div class="whiteText">
-                            <h4 class="mt-2 mb-0">Bradley Mubenga</h4>
-                            <small class="devName">Front-end Web Developer</small>
-                            <p class="lead">Self-motivated developer, who is willing to learn and create outstanding web applications.</p>
-                        </div>
-
-                        
-                        <div class="">
-                            <a href="https://drive.google.com/u/0/uc?id=1TxL_SXw44vCwNylv8ohF4M20UgIhvOQQ&export=download" class="btn btn-outline-primary ml-2">Download CV</a>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
+<!--VIDEO SECTION-->
+<section class="py-5 Color1">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex align-items-center">
+        <div>
+          <h2>Is your website costing you clients?</h2>
+          <p>I can help you transform your website so that it brings you clients over and over again so that you can focus on doing the work you love.</p>
         </div>
+      </div>
+
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div class='embed-container'><iframe src='https://www.youtube.com/embed/x_0tMMRCOl0' frameborder='0' allowfullscreen></iframe></div>
+      </div>
     </div>
-<!--Header Section-->
-
-
-<!--Projects Section-->
-<div class="whiteBg mb-5">
-    <div class="text-center mt-3">
-        <h4 class="purpleText">Projects</h4>
-        <small class="lead">My Masterpiece Collection.</small>
-    </div>
-
-    <div class="row mt-3 d-flex justify-content-center">
-
-        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 mt-3">
-            <div class="whiteBox text-center pb-2 ">
-                <img alt="" src="./img/port1.jpeg" class="img-fluid"/>
-
-                <div class="pt-3 px-2 ">
-                    <h4>Indlela Media</h4>
-                    <p class="text-center"> A web application for Corporate Social Investors to manage their projects.</p>
-                    
-                    <div>
-                        <a href="https://bradleymubenga777.github.io/indlela-media/" target="blank" class="btn btn-primary mr-2">Demo <i class="fa fa-external-a"></i></a>
-                        <a href="https://github.com/bradleymubenga777/indlela-media/" target="blank"  class="btn btn-outline-primary ml-2">Code <i class="fa fa-code"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 mt-3">
-            <div class="whiteBox text-center pb-2 ">
-                <img alt="" src="./img/port2.jpeg" class="img-fluid"/>
-
-                <div class="pt-3 px-2 ">
-                    <h4>MUA Celeste</h4>
-                    <p class="text-center">A website portfolio for a Professional Make-up artist displaying their art.</p>
-                    
-                    <div>
-                        <a href="https://muaceleste.netlify.app" target="blank" class="btn btn-primary mr-2">Demo <i class="fa fa-external-a"></i></a>
-                        <a href="https://github.com/bradleymubenga777/muaceleste/" target="blank"  class="btn btn-outline-primary ml-2">Code <i class="fa fa-code"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--Projects Section-->
-
-<!--About Me Section-->
-<div id="aboutSection" class="purpleBg mb-5 pt-3">
-
-    <div class="container pt-2">
-        <div class="row d-flex justify-content-center align-content-center">
-            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-5">
-                <div class="text-center mt-3 mb-0 whiteText">
-                    <h4 class="whiteText">Skills</h4>
-                </div>
-
-                <div class="expBox d-flex align-items-center p-3">
-                    <div class="">
-                        <h5 class="mb-0">Tech Stack</h5>
-                        <p>I specialize in the <span class="boldF">MERN Stack</span>, in addition I use <span class="boldF">Bootstrap</span> and <span class="boldF">Sass</span> to enchance my designs. I am not limited to these technologies and I am eager and willing to learn more. </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-5">
-                <div class="text-center mt-3 mb-0 whiteText">
-                    <h4 class="whiteText">Experience</h4>
-                </div>
-                
-                <div class="expBox d-flex align-items-center p-3">
-                    <div class="">
-                        <h4 class="mb-0">Indlela Media</h4>
-                        <em class="devType">Front-end Developer</em>
-                        <br/>
-                        <small>March 2020 - Present</small>
-                        <p>Responsible for the front-end development of the Indlela Media's Web App, primarily using React and Bootstrap in a startup company enviroment.</p>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container">
-        <div class="row d-flex justify-content-center align-content-center">
-
-            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-5">
-                <div class="text-center mb-0 whiteText">
-                    <h4 class="whiteText">Education</h4>
-                </div>
-                
-                <div class="expBox d-flex align-items-center p-3">
-                    <div class="ml-2">
-                        <h5 class="mb-0">Code Your Future</h5>
-                        <em class="devType">Full-stack Web Development Bootcamp</em>
-                        <br/>
-                        <small>January 2020 - August 2021</small>
-                    </div>
-                </div>
-
-                <div class="expBox d-flex align-items-center p-3 mt-3">
-                    <div class="ml-2">
-                        <h5 class="mb-0">Oaklands High School</h5>
-                        <em class="devType">Matric 2019 - Deputy Head Prefect</em>
-                        <br/>
-                        <small>January 2015 - December 2019</small>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-</div>
-<!--About Me Section-->
-
-<!--Contact Section-->
-<section id="contactSection">
-    <div class="row d-flex align-items-center justify-content-center mt-5 mb-5">
-
-        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-5">
-            <div class="expBox d-flex align-items-center justify-content-center p-5">
-                <div class="text-center">
-                    <h4 class="mb-1">Ways To Contact Me</h4>
-                    <div class="refA">
-                        <p class="mb-0"><a href="mailto:bradleymubenga77@gmail.com"><i class="fa fa-envelope-o"></i> bradleymubenga77@gmail.com</a></p>
-                        <p><a href="tel:0678151282"><i class="fa fa-phone"></i> 067 815 1282</a></p>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center">
-
-                        <a href="https://www.github.com/bradleymubenga777/" target="blank" class="mr-4 iconSize">
-                            <i class="fa fa-github"></i>
-                        </a>
-
-                        <a href="https://www.aedin.com/in/bradley-mubenga/" target="blank" class="mr-4 iconSize">
-                            <i class="fa fa-aedin-square"></i>
-                        </a>
-
-                        <a href="https://www.facebook.com/bradleymubenga1/" target="blank" class="iconSize">
-                            <i class="fa fa-facebook-square"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+  </div>
 </section>
-<!--Contact Section-->
+<!--VIDEO SECTION-->
+
+<!--SERVICES SLIDE-->
+<section id="services" class="py-5 Color2">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="textWhite">
+          <h1 class="">Services</h1>
+          <p class="">Whatever your goal is, I've got you covered!</p>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-center">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+            <a href="#">
+              <div class="boxBorder p-3 my-2">
+                <img src="./icons/web-design.svg" class="img-fluid" width="50rem"/>
+                <h5 class="">Web Design / Development</h5>
+                <h5 class="colorLine"></h5>
+                <small>Get an amazing website that captures your visitor's eye or have your existing website improved and made more effective.</small>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+            <a href="#">
+              <div class="boxBorder p-3 my-2">
+                <img src="./icons/graphic-tool.svg" class="img-fluid" width="50rem"/>
+                <h5 class="">Branding & Graphic Design</h5>
+                <h5 class="colorLine"></h5>
+                <small>Ensuring your business cuts through the noise and delivers a clear message with a consistent visual style that is goal focused</small>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+            <a href="#">
+              <div class="boxBorder p-3 my-2">
+                <img src="./icons/growth.svg" class="img-fluid" width="50rem"/>
+                <h5 class="">Digital Marketing</h5>
+                <h5 class="colorLine"></h5>
+                <small>With digital marketing you will get more clients day in and day out whilst building a huge customer base at the same time.</small>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--SERVICES SECTION-->
+
+<!--PORTFOLIO SLIDE-->
+<section id="portfolio" class="Color1 py-5">
+  <div class="container">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="">
+          <h1 class="">Portfolio</h1>
+          <p class="">This is my masterpiece, a collection of art!</p>
+        </div>
+      </div>
+
+      <div class="">
+        <div class="">
+          <div class="row">
+              <div class="col-sm-12">
+                <ul class="filter text-center">
+                  <li class="active">
+                    <a class="btn btn-primary btn-sm btn-tag" href="#" data-filter="all">All</a>
+                  </li>
+                  <li>
+                    <a class="btn btn-primary btn-sm btn-tag" href="#" data-filter="blue">Web Development</a>
+                  </li>
+                  <li>
+                    <a class="btn btn-primary btn-sm btn-tag" href="#" data-filter="green">Graphic Design</a>
+                  </li>
+                  <li>
+                    <a class="btn btn-primary btn-sm btn-tag" href="#" data-filter="red">Digital Marketing</a>
+                  </li>
+                </ul>
+            
+                <ul class="list mx-auto">
+                  <li class="item blue">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <div class="card" style="width: 18rem;">
+                          <img src="./img/port1.jpeg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Indlela Media</h5>
+                            <p class="card-text">A web application for Corporate Social Investors to manage their projects.</p>
+                            <a href="https://indlelamedia.com" class="btn btn-outline-primary">Website <i class="fas fa-globe"></i></a>
+                            <a href="https://github.com/bradleymubenga777/indlela-media" class="btn btn-primary">Code <i class="fas fa-code"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="item blue">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <div class="card" style="width: 18rem;">
+                          <img src="./img/port2.jpeg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">MUA Celeste</h5>
+                            <p class="card-text">A portfolio for a Professional Make-up artist displaying their art.</p>
+                            <a href="https://muaceleste.netlify.app" class="btn btn-outline-primary">Website <i class="fas fa-globe"></i></a>
+                            <a href="https://github.com/bradleymubenga777/muaceleste" class="btn btn-primary">Code <i class="fas fa-code"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="item blue green">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <div class="card" style="width: 18rem;">
+                          <img src="./img/port3.jpeg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Vally Kalombo</h5>
+                            <p class="card-text">Website and media kit for fashion enthusiast and Youtuber Vally Kalombo.</p>
+                            <a href="https://vallykalombo.web.app" class="btn btn-outline-primary">Website <i class="fas fa-globe"></i></a>
+                            <a href="https://github.com/bradleymubenga777/valley-kalombo-blog/tree/master" class="btn btn-primary">Code <i class="fas fa-code"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+<!--                   <li class="item red">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <div class="card" style="width: 18rem;">
+                          <img src="./img/port2.jpeg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li> -->
+
+<!--                   <li class="item green">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <div class="card" style="width: 18rem;">
+                          <img src="./img/port2.jpeg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li> -->
+                      
+<!--                   <li class="item red">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <div class="card" style="width: 18rem;">
+                          <img src="./img/port2.jpeg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li> -->
+
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--PORTFOLIO SECTION-->
+
+<!--PRICING TABLE-->
+<section id="pricing" class="Color2 py-5">
+  <div class="container Color2">
+    <div class="card-deck text-center row">
+      <div class="textWhite text-start">
+        <h1 class="">Pricing</h1>
+        <p class="">Get the right price for the right value!</p>
+      </div>
+
+      <div class="card shadow-sm col-sm-12 col-md-12 col-xl-4 col-lg-4">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Starter</h4>
+        </div>
+        <div class="card-body d-flex flex-column">
+          <h1 class="card-title pricing-card-title highLight">R6 000 <small class="text-muted"></small></h1>
+          <ul class="list-unstyled mt-3 mb-4 d-flex flex-column text-start">
+            <li><i class="fas fa-check-circle highLight"></i> Custom designed website</li>
+            <li><i class="fas fa-check-circle highLight"></i> Responsive Web Design</li>
+            <li><i class="fas fa-check-circle highLight"></i> Search Engine Optimization</li>
+            <li><i class="fas fa-check-circle highLight"></i> Social Media Intergration</li>
+          </ul>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#contactMeModal" class="btn btn-lg btn-block btn-primary">Get Started</button>
+        </div>
+      </div>
+  
+      <div class="card shadow-sm col-sm-12 col-md-12 col-xl-4 col-lg-4">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Business</h4>
+        </div>
+        <div class="card-body d-flex flex-column">
+          <h1 class="card-title pricing-card-title highLight">R15 000 <small class="text-muted">+</small></h1>
+          <ul class="list-unstyled mt-3 mb-4 d-flex flex-column text-start">
+            <li><i class="fas fa-check-circle highLight"></i> Includes <strong>Starter Package</strong></li>
+            <li><i class="fas fa-check-circle highLight"></i>Wordpress CMS</li>
+            <li><i class="fas fa-check-circle highLight"></i> Basic Google Analytics</li>
+            <li><i class="fas fa-check-circle highLight"></i> WhatsApp Chat Widget</li>
+          </ul>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#contactMeModal" class="btn btn-lg btn-block btn-primary">Get Started</button>
+        </div>
+      </div>
+  
+      <div class="card shadow-sm col-sm-12 col-md-12 col-xl-4 col-lg-4">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">E-commerce</h4>
+        </div>
+        <div class="card-body d-flex flex-column">
+          <h1 class="card-title pricing-card-title highLight">R30 000 <small class="text-muted">+</small></h1>
+          <ul class="list-unstyled mt-3 mb-4 d-flex flex-column text-start">
+            <li><i class="fas fa-check-circle highLight"></i> Includes <strong>Business Package</strong></li>
+            <li><i class="fas fa-check-circle highLight"></i> Branding (Logo, Email Signature etc.)</li>
+            <li><i class="fas fa-check-circle highLight"></i> Shopping Cart</li>
+            <li><i class="fas fa-check-circle highLight"></i> Payment Gateway</li>
+          </ul>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#contactMeModal" class="btn btn-lg btn-block btn-primary">Get Started</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="textWhite text-start pt-3">
+      <p class="">T&C’s apply – Client to supply content & images. 50% deposit to start work unless on account/retainer. Balance due prior to the website going live. Once draft signed off & content & images supplied, two sets of changes are allowed. Thereafter billing of R500 per hour for additional changes or image editing will apply. Additional web pages are billed at R1000 per page.</p>
+    </div>
+
+  </div>
+</section>
+<!--PRICING TABLE-->
+
+<!--EMAIL SUBSRIBE SECTION-->
+<section class="newsletter Color1">
+  <div class="container">
+      <div class="row text-center">
+          <div class="col-sm-12">
+              <div class="content">
+                  <form class="text-center">
+                      <h2>Subscribe To My Newsletter</h2>
+                      <div class="input-group">
+                          <input type="email" class="form-control" placeholder="Enter your email">
+                          <span class="input-group-btn mx-3">
+                              <button class="btn btn-outline-primary" type="submit">Subscribe Now</button>
+                          </span>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!--EMAIL SUBSCRIBE SECTION-->
+
+<!--FOOTER-->
+<footer>
+  <div class="container Color1 py-3 text-center">
+    <small>Bradley Mubenga © 2021. All rights reserved | Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></small>
+  </div>
+</footer>
+
+<!--MODALS-->
+<!-- Modal -->
+<div class="modal fade" id="contactMeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title" id="exampleModalLabel">Let's Talk! Let Me Know If You'd Like A FREE Consultation</p>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <div class="d-flex flex-column theLinks">
+         <a href="https://wa.me/27620253573"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+         <a href="https://m.me/bradleymubenga1"><i class="fab fa-facebook-messenger py-2"></i> Facebook Messanger</a>
+         <a href="mailto:bradleymubenga77@gmail.com"><i class="far fa-envelope"></i> bradleymubenga77@gmail.com</a>
+       </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!--     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script> -->
+    <script src='./js/jquery.min.js'></script>
+    <script type="text/javascript" src="./js/scripts.js"></script>
+    <script>
+      new fullpage('#fullpage', {
+      //options here
+      autoScrolling:true,
+      scrollHorizontally: true,
+
+      scrollOverflow:true
+    });
+
+    //methods
+    fullpage_api.setAllowScrolling(true);
+    </script>
 </body>
 </html>

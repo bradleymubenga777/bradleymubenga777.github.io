@@ -1,0 +1,22 @@
+{
+  "name": "bradleymubenga777.github.io",
+  "version": "1.0.0",
+  "description": "Repository for my portfolio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradleymubenga777/bradleymubenga777.github.io.git"
+  },
+  "author": "Bradley Mubenga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradleymubenga777/bradleymubenga777.github.io/issues"
+  },
+  "homepage": "https://github.com/bradleymubenga777/bradleymubenga777.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1"
+  }
+}
