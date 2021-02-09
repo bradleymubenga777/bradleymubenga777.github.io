@@ -8,7 +8,7 @@ $(function() {
         var filterValue = $(this).attr('data-filter');
       
         //Show filtered list by matching data-filter with class of item
-        if(filterValue == "red") {
+        if(filterValue == "all") {
           $(".list .item").fadeIn('slow');
         } else {
           $(".list .item").not("." + filterValue).hide();
